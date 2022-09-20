@@ -4,8 +4,9 @@
   },
   "name": "node002",
   "version": "1.0.0",
-  "main": "./lista.js",
   "type": "module",
+  "main": "test.js",
+  
   "dependencies": {
     "ansi-escapes": "^4.3.2",
     "ansi-styles": "^4.3.0",
@@ -196,7 +197,9 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/test.js"  
+
   },
   "repository": {
     "type": "git",
